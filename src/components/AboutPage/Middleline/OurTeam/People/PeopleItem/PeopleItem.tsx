@@ -12,6 +12,7 @@ const PeopleItem: React.FC<Props> = ({ name, image }) => {
         <div className="absolute flex items-center justify-center top-0 bottom-0 left-0 right-0">
           <img
             src={image}
+            alt={name}
             className="grayscale h-[100%] max-w-none border-box"
           />
         </div>
