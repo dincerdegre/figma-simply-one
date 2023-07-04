@@ -25,3 +25,47 @@
     url(/src/assets/fonts/DMMono-Medium.ttf) format("truetype");
   font-weight: 500;
 }
+
+
+
+.scroll {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+}
+
+.scroll div {
+  white-space:nowrap;
+  animation: animate 40s linear infinite;
+  animation-direction: reverse;
+  animation-delay:-40s;
+  display: flex;
+}
+
+.scroll div:nth-child(2) {
+  animation: animate2 40s linear infinite;
+  animation-direction: reverse;
+  animation-delay:-20s;
+}
+
+@keyframes animate {
+  0%
+  {
+    transform:translateX(100%);
+  }
+  100%
+  {
+    transform:translateX(-100%);
+  }
+}
+
+@keyframes animate2 {
+  0%
+  {
+    transform:translateX(0%);
+  }
+  100%
+  {
+    transform:translateX(-200%);
+  }
+}
