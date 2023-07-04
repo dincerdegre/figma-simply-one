@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navigation: React.FC = () => {
   return (
     <div className="basis-1/3 flex items-center">
       <ul className="flex gap-[60px] items-start w-[201px] text-[16px] leading-[32px] font-inter font-light">
         <li>
-          <a href="/" className="hover:underline">
+          <Link to="/aboutus" className="hover:underline">
             About Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" className="hover:underline">
+          <Link to="/info" className="hover:underline">
             Info Page
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
