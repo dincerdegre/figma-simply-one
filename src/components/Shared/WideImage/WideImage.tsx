@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowIcon } from "../../../../assets/icons/icons";
+import { ArrowIcon } from "../../../assets/icons/icons";
 
 const WideImage: React.FC = () => {
   return (
