@@ -2,7 +2,7 @@ import React from "react";
 import List from "./List/List";
 import Capabilities from "./Capabilities/Capabilities";
 import KickstartLine from "../../Shared/KickstartLine/KickstartLine";
-import WideImage from "./WideImage/WideImage";
+import WideImage from "../../Shared/WideImage/WideImage";
 
 const EndSection: React.FC = () => {
   return (
