@@ -18,6 +18,7 @@ module.exports = {
         'video-image': 'url("assets/images/f576b710d54d9756878c0c770e0be394.png")',
         'list-image': 'url("assets/images/1aedffed1513982be7ca74c5286a8b97.jpg")',
         'wide-image': 'url("assets/images/64542dfdb7b8896bfd708e7a22e49cd3.jpg")',
+        'wide-logo': 'url("assets/images/4c0c10ae081f4eaa9a61f992a33b8d9b.png")',
       },
     },
   },
